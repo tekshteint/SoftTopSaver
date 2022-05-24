@@ -1,5 +1,5 @@
 '''
-This file will just be hardcoded to sunnyvale at the moment. Full functionality will be made sooner or later
+This file will just be hardcoded at the moment. Full functionality will be made sooner or later
 '''
 
 import requests
@@ -7,7 +7,7 @@ import json
 
 def main():
     API_key = "Your API key goes here"
-    CITY = "Sunnyvale"
+    CITY = "Your City goes here"
 
     url = f"http://api.weatherapi.com/v1/forecast.json?key={API_key}&q={CITY}&days=3&aqi=no&alerts=no"
 
